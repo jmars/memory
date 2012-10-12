@@ -15,7 +15,7 @@
   var ck;
   if (mode === NODE_JS) {
     print = console.log;
-    try {ck = require('memcheck')}catch(e){ck = memcheck}
+    if (enable_memcheck) ck = require('memcheck');
   } else if (mode === JS_SHELL) {
     ck = (load('memcheck.js'), memcheck);
   } else {
