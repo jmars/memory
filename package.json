@@ -1,0 +1,15 @@
+{
+  "name": "memory",
+  "version": "0.0.0",
+  "description": "Memory module for lljs.",
+  "main": "memory.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/jmars/memory.git"
+  },
+  "author": "",
+  "license": "BSD"
+}
