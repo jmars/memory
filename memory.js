@@ -345,8 +345,8 @@
     enable_memcheck = val;
     reset();
   };
-  exports.memcheck = ck;
-  exports.memcheck_call_pop = ck.memcheck_call_pop;
-  exports.memcheck_call_push = ck.memcheck_call_push;
-  exports.memcheck_call_reset = ck.memcheck_call_reset;
+  //exports.memcheck = ck;
+  //exports.memcheck_call_pop = ck.memcheck_call_pop;
+  //exports.memcheck_call_push = ck.memcheck_call_push;
+  //exports.memcheck_call_reset = ck.memcheck_call_reset;
 }.call(this, typeof exports === 'undefined' ? memory = {} : exports));
